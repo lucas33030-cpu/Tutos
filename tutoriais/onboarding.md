@@ -30,6 +30,8 @@ Nos primeiros dias, não se preocupe em saber tudo de imediato. Nosso objetivo �
 
 ## 📍 Próximos passos
 
+Após ler este guia, continue com:
+
 - [Ferramentas que usamos](ferramentas.md)
 - [Comunicação e etiqueta](comunicacao.md)
 
