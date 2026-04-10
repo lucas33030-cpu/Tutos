@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>📚 Tutoriais do Escritório</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="https://cdn.jsdelivr.net/npm/twemoji@latest/2/svg/1f4da.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <style>
+    :root {
+      --theme-color: #2563eb;
+      --sidebar-width: 280px;
+    }
+    body { font-family: 'Segoe UI', sans-serif; }
+    .sidebar { background: #1e293b !important; }
+    .sidebar-nav a { color: #94a3b8 !important; }
+    .sidebar-nav a:hover, .sidebar-nav .active { color: #fff !important; }
+    .app-name-link { color: #fff !important; font-weight: 700; font-size: 1.1rem; }
+    nav.app-nav a { color: #2563eb; }
+  </style>
+</head>
+<body>
+  <div id="app">Carregando tutoriais...</div>
+
+  <script>
+    window.$docsify = {
+      name: '📚 Tutoriais do Escritório',
+      repo: '',                          // ← coloque aqui o link do seu repositório
+      loadSidebar: true,
+      loadNavbar: true,
+      subMaxLevel: 2,
+      search: {
+        placeholder: '🔍 Pesquisar tutoriais...',
+        noData: 'Nenhum resultado encontrado.',
+        depth: 3
+      },
+      count: {
+        countable: true,
+        position: 'top',
+        margin: '10px',
+        float: 'right',
+        language: 'portuguese'
+      },
+      pagination: {
+        previousText: '← Anterior',
+        nextText: 'Próximo →',
+      },
+      copyCode: {
+        buttonText: 'Copiar',
+        errorText: 'Erro',
+        successText: 'Copiado!'
+      },
+      alias: {
+        '/.*/_sidebar.md': '/_sidebar.md'
+      }
+    }
+  </script>
+
+  <!-- Docsify core -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
+  <!-- Plugins -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code@2"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
+  <!-- Syntax highlighting -->
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-python.min.js"></script>
+</body>
+</html>
